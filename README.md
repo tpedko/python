@@ -1,5 +1,4 @@
 # My Repo for Python projects
-# !!!
 
 Git HowTo
 
