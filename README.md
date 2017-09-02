@@ -1,7 +1,7 @@
 # My Repo for Python projects
 # !!!
 
-How to
+Git HowTo
 
 ```
 git clone ssh://git@github.com/tpedko/python.git
