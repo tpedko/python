@@ -9,7 +9,9 @@ git pull
 git merge origin/master
 
 git add . 
+
 or  
+
 git rm <file>
 git commit -m "note"
 git push origin master
