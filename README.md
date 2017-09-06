@@ -6,7 +6,7 @@ Git HowTo
 git clone ssh://git@github.com/tpedko/python.git
 
 git pull
-git merge origin/master
+git merge origin/master ??
 
 git add . 
 
