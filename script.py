@@ -63,14 +63,14 @@ def doRouter(connection_data):
         if config_ok:
             config_commands = ['ip route 1.1.1.1 255.255.255.255 '+ip_next_hop,
                                'ip route 2.2.2.2 255.255.255.255 '+ip_next_hop]
-         	    net_connect.send_config_set(config_commands)
+            net_connect.send_config_set(config_commands)
             print(str(ip_address) + " - " + "Static routes added")
         else:
             print(str(ip_address) + " - " + bcolors.FAIL + "Routes weren't added because config is incorrect" + bcolors.ENDC)
             return ip_address
 
         if config_ok:
-   	                  net_connect.send_command_expect('write memory')
+            net_connect.send_command_expect('write memory')
             print(str(ip_address) + " - " + "Config saved")
 
         net_connect.disconnect()
